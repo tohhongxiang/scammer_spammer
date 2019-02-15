@@ -44,6 +44,6 @@ However, further inspection on the website shows that the website used RSA encry
           return true;
         }
     </script>
-    ````
+````
     
     And the function RSA was defined in rsa.js somewhere. Since getting past RSA required a both a public and private key, I decided to switch tactics and used selenium instead. Thus came `scammer_spammer_selenium.py`
