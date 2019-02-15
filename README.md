@@ -46,4 +46,5 @@ However, further inspection on the website shows that the website used RSA encry
     </script>
 ````
     
-And the function RSA was defined in rsa.js somewhere. Since getting past RSA required a both a public and private key, I decided to switch tactics and used selenium instead. Thus came `scammer_spammer_selenium.py`
+When the login button on the website was clicked, `do_encrypt()` was called, which called `RSA()` if the username and password fields were filled up.
+And the function RSA was defined in rsa.js somewhere. Since getting past RSA required a both a public and private key, and I had not enough knowledge on how to break RSA encryption, I decided to switch tactics and used selenium instead. Thus came `scammer_spammer_selenium.py`
