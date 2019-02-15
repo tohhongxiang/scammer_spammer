@@ -1,5 +1,6 @@
 # Scammer Spammer
-Used to spam a spam website by filling in random names and passwords
+Used to spam a spam website by filling in random names from `names.txt` and randomly-generated passwords.
+`scammer_spammer.py` requires bs4 and requests, while `scammer_spammer_selenium.py` requires selenium.
 
 Backstory:
 
